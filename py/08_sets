@@ -1,0 +1,23 @@
+#sets are unordered collection of items, they are mutable and do not allow duplicate values
+
+fruits1={"apple","orange","durian","kiwi"}
+fruits2={"grape","durian","kiwi"}
+
+#    print(next(iter(fruits1)))
+#    print(fruits1)
+
+#    fruits1.add("banana")
+#    print(fruits1)
+
+#    fruits1.update(fruits2)
+#    print(fruits1)
+
+#sets intersection
+intersection=fruits1.intersection(fruits2)
+print(intersection)
+union1=fruits1.union(fruits2)
+print(union1)
+difference1=fruits1.difference(fruits2)
+print(difference1)
+difference2=fruits2.difference(fruits1)
+print(difference2)
