@@ -1,9 +1,7 @@
-num = int(input("Enter a number: "))
-divisor = 2
-while divisor <= num ** 0.5:
-    if num % divisor == 0:
-        print(f"{num} is not a prime number.")
-        break
-    divisor += 1
-else:
-    print(f"{num} is a prime number.")
+x = [1,2,[3,4],5]
+print(x[2][0])  # Output: 3
+y=x
+y=[2][0] = 99
+print(y)  # Output: [1, 2, [99, 4], 5]
+
+
