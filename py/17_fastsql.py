@@ -1,4 +1,6 @@
-#fastapi
+# fastapi
+# use uvicorn file_name:app  to run the server. e.g. uvicorn 17_fastsql:app --reload
+
 import os
 import sys
 from fastapi import FastAPI, HTTPException, status
