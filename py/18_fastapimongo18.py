@@ -16,7 +16,7 @@ load_dotenv()
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("18_fastapimongo18:app", host="0.0.0.0", port=8000)
+    uvicorn.run("18_fastapimongo18:app", host="127.0.0.1", port=8000)
 
 # connect to mongo db
 MONGO_URI = os.getenv("MONGO_URI")
